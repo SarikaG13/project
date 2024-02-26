@@ -1,0 +1,196 @@
+<html>
+    <body bgcolor="beige" text="dark grey">
+    <h1><marquee><b> SMOKER <span style="color:crimson"> DETECTION  </span>  </b> </marquee></h1>
+<form method="POST">
+    {% csrf_token %}
+    <table>
+        <tr>
+            <td>
+                Age
+            </td>
+            <td>
+                <input type="text" name="textage">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Height(cm)
+            </td>
+            <td>
+                <input type="text" name="textheight">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Weight(kg)
+            </td>
+            <td>
+                <input type="text" name="textweight">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Waist(cm)
+            </td>
+            <td>
+                <input type="text" name="textwaist">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Eyesight(left)
+            </td>
+            <td>
+                <input type="text" name="texteyesightl">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Eyesight(right)
+            </td>
+            <td>
+                <input type="text" name="texteyesightr">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Hearing(left)
+            </td>
+            <td>
+                <input type="text" name="texthearingl">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Hearing(right)
+            </td>
+            <td>
+                <input type="text" name="texthearingr">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Systolic
+            </td>
+            <td>
+                <input type="text" name="textsystolic">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Relaxation
+            </td>
+            <td>
+                <input type="text" name="textrelaxation">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Fasting Blood Sugar
+            </td>
+            <td>
+                <input type="text" name="textfastingbloodsugar">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Cholesterol
+            </td>
+            <td>
+                <input type="text" name="textcholesterol">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Triglyceride
+            </td>
+            <td>
+                <input type="text" name="texttriglyceride">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                HDL
+            </td>
+            <td>
+                <input type="text" name="texthdl">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                LDL
+            </td>
+            <td>
+                <input type="text" name="textldl">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Hemoglobin
+            </td>
+            <td>
+                <input type="text" name="texthemoglobin">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Urine Protein
+            </td>
+            <td>
+                <input type="text" name="texturineprotein">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Serum Creatinine
+            </td>
+            <td>
+                <input type="text" name="textserumcreatinine">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                AST
+            </td>
+            <td>
+                <input type="text" name="textast">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                ALT
+            </td>
+            <td>
+                <input type="text" name="textalt">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Gtp
+            </td>
+            <td>
+                <input type="text" name="textgtp">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Dental Caries
+            </td>
+            <td>
+                <input type="text" name="textdentalcaries">
+            </td>
+        </tr>
+        <tr>
+            <td>
+             <button type="submit" name="buttonsubmit">Submit</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                {{result}}
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
